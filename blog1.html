@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first blog- MyBlog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .article-content h2 {
+            font-size: 1.875rem; 
+            font-weight: 700;
+            color: #374151; 
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .article-content p {
+            margin-bottom: 1rem;
+            line-height: 1.75;
+        }
+        .article-content blockquote {
+            border-left: 4px solid rgb(203, 220, 235);
+            padding-left: 1rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #4b5563; 
+        }
+    </style>
+</head>
+<body class="bg-[rgb(245,239,230)] text-gray-700 font-sans leading-relaxed flex flex-col min-h-screen">
+
+    <header class="bg-[rgb(232,223,202)]/50 backdrop-blur-sm sticky top-0">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div>
+                    <a href="#" class="text-xl font-bold text-[rgb(109,148,197)]">The Simple Life</a>
+                </div>
+                <nav class="hidden md:flex items-center space-x-6">
+                    <a href="./index.html" class="text-gray-600 hover:text-[rgb(109,148,197)] transition-colors">Home</a>
+                    <a href="./comingsoon.html" class="text-gray-600 hover:text-[rgb(109,148,197)] transition-colors">Contact Us</a>
+                    <a href="./comingsoon.html" class="text-gray-600 hover:text-[rgb(109,148,197)] transition-colors">Login</a>
+                    <a href="./comingsoon.html" class="bg-[rgb(109,148,197)] text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-colors">Sign Up</a>
+                </nav>
+                <div class="md:hidden">
+                    <button class="text-gray-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 flex-grow">
+        <article class="max-w-3xl mx-auto">
+            <header class="mb-8">
+                <h1 class="text-5xl font-extrabold text-gray-800 mb-3">My first Blog</h1>
+                <div class="flex items-center text-sm text-gray-500">
+                    <span>Published on September 12, 2025 by Suryansh</span>
+                </div>
+            </header>
+
+            <div class="mb-8">
+                 <img src="https://placehold.co/1200x600/E8DFCA/6D94C5?text=Simplicity" alt="A simple, calming placeholder image" class="w-full h-auto rounded-lg object-cover">
+            </div>
+
+            <div class="article-content text-lg text-gray-800">
+                <p>In a world that constantly pushes for more, there's a quiet power in choosing less. Minimalism isn't about deprivation; it's about making room for what truly matters. It’s a journey of curating your life, from the objects in your home to the commitments on your calendar. This philosophy helps you to cut through the noise of modern life and focus on the essentials.</p>
+                
+                <p>The first step is often the most challenging: letting go. We attach memories and 'what-if' scenarios to our possessions. But by releasing these items, we also release the mental weight they carry. The goal isn't an empty room, but a space filled with intention and purpose. Every item that remains should serve a function or bring you genuine joy.</p>
+                
+                <blockquote>"The secret of happiness, you see, is not found in seeking more, but in developing the capacity to enjoy less." - Socrates</blockquote>
+
+                <h2>Applying Simplicity Beyond Your Home</h2>
+                <p>This mindset extends far beyond physical possessions. Consider your digital life: the endless notifications, the cluttered desktop, the inbox overflowing with unread mail. By unsubscribing from newsletters, organizing files into a simple structure, and setting boundaries with technology, you can reclaim your focus and mental energy.</p>
+                
+                <p>Ultimately, embracing simplicity is about intentionality. It's about asking yourself what adds value to your life and having the courage to let go of everything that doesn't. The result is not just a tidier space, but a clearer mind and more time for the people and passions that truly fulfill you.</p>
+            </div>
+            <hr class="border-t border-[rgb(232,223,202)] my-12">
+
+            <div class="flex items-start bg-[rgb(203,220,235)]/20 p-6 rounded-lg">
+                <img src="https://placehold.co/100x100/E8DFCA/6D94C5?text=AD" alt="Author suryansh Doe" class="w-16 h-16 rounded-full mr-6">
+                <div>
+                    <h3 class="font-bold text-gray-800 text-lg">About Suryansh</h3>
+                    <p class="text-gray-600 mt-1">suryansh is a writer and advocate for intentional living. When not writing, Alex enjoys badminton and practicing mindfulness. This blog is a space to explore the journey towards a simpler, more meaningful life.</p>
+                </div>
+            </div>
+
+        </article>
+    </main>
+
+    <footer class="bg-[rgb(232,223,202)]/50 mt-12">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-600">
+            <p>&copy;Made with love in India.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
